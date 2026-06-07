@@ -2,10 +2,34 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Términos, condiciones y política de tratamiento de datos personales de CampusLA.">
     <style>
         /* Fondo para resaltar la caja */
-        body { background-color: #f4f4f4; font-family: 'Segoe UI', sans-serif; padding: 50px; }
+        body { background-color: #f4f4f4; font-family: 'Segoe UI', sans-serif; padding: 50px; margin: 0; }
         
+        /* Contenedor Responsivo */
+        .container { width: 90%; max-width: 800px; margin: 0 auto; padding: 20px; box-sizing: border-box; }
+        @media (max-width: 600px) { 
+            body { padding: 10px; }
+            .container { width: 100%; padding: 15px; } 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        ```
+
+### ¿Qué hice?
+1.  **En el `<head>`**: Agregué el `meta viewport` (esencial para que sea responsivo) y el `meta description` (para el SEO).
+2.  **En el `<style>`**: Añadí la clase `.container` con su media query para celulares, sin tocar nada más de tus estilos.
+3.  **En el `<body>`**: Puse el inicio del `div class="container"` justo después de abrir la etiqueta.
+
+**No olvides cerrar ese `div`**: Cuando termines de poner todo tu texto legal, justo antes de cerrar el `</body>`, añade un `</div>` para completar el envoltorio. ¡Eso es todo!
+
+Vidi midi vici.
+Ad aspera ad astra.
+If there is a will there is a way.
         /* El contenedor de la caja (tu "container") */
         .modal-content { 
             background-color: #fff; 
